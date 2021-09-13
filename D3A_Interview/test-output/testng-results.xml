@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17903" started-at="2021-09-12T07:12:04Z" finished-at="2021-09-12T07:12:22Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="17903" started-at="2021-09-12T07:12:04Z" finished-at="2021-09-12T07:12:22Z">
+      <class name="com.d3a.qa.testcases.AllTestCase">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.d3a.qa.testcases.AllTestCase@1cd072a9]" name="start" is-config="true" duration-ms="10953" started-at="2021-09-12T12:42:04Z" finished-at="2021-09-12T12:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="TC01()[pri:0, instance:com.d3a.qa.testcases.AllTestCase@1cd072a9]" name="TC01" duration-ms="1942" started-at="2021-09-12T12:42:15Z" finished-at="2021-09-12T12:42:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01 -->
+        <test-method status="PASS" signature="TC02()[pri:0, instance:com.d3a.qa.testcases.AllTestCase@1cd072a9]" name="TC02" duration-ms="1856" started-at="2021-09-12T12:42:17Z" depends-on-methods="com.d3a.qa.testcases.AllTestCase.TC01" finished-at="2021-09-12T12:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC02 -->
+        <test-method status="PASS" signature="TC03()[pri:0, instance:com.d3a.qa.testcases.AllTestCase@1cd072a9]" name="TC03" duration-ms="3103" started-at="2021-09-12T12:42:19Z" depends-on-methods="com.d3a.qa.testcases.AllTestCase.TC02" finished-at="2021-09-12T12:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC03 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.d3a.qa.testcases.AllTestCase@1cd072a9]" name="teardown" is-config="true" duration-ms="0" started-at="2021-09-12T12:42:22Z" finished-at="2021-09-12T12:42:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.d3a.qa.testcases.AllTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
